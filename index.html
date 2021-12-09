@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Picker</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="app.js" charset="utf-8" defer></script>
+    </head>
+    <body>
+        <h1 class = "title">Color Picker</h1>
+
+        <div id = "colorDisplay"></div>
+
+        <div id = "sliderValues">
+            <div class = "numContainer">
+                <h2 class = "sliderValue" id = "redNumber"></h2>
+            </div>
+
+            <div class = "numContainer">
+                <h2 class = "sliderValue" id = "greenNumber"></h2>
+            </div>
+
+            <div class = "numContainer">
+                <h2 class = "sliderValue" id = "blueNumber"></h2>
+            </div>
+        </div>
+
+        <div id = "sliders">
+            <input type = "range" min = "0" max = "255" value = "50" class = "slider" id = "redSlider">
+            <input type = "range" min = "0" max = "255" value = "50" class = "slider" id = "greenSlider">
+            <input type = "range" min = "0" max = "255" value = "50" class = "slider" id = "blueSlider">
+        </div>
+    </body>
+</html>
